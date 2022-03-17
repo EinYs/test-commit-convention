@@ -1,6 +1,6 @@
 {
   "name": "commit-convention",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -19,7 +19,5 @@
     "husky": "^7.0.0",
     "standard-version": "^9.3.2"
   },
-  "dependencies": {
-
-  }
+  "dependencies": {}
 }
