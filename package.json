@@ -4,16 +4,22 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "release": "standard-version",
+    "release:minor": "standard-version --release-as minor",
+    "release:patch": "standard-version --release-as patch",
+    "release:major": "standard-version --release-as major"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "@commitlint/cli": "^16.2.3",
     "@commitlint/config-angular": "^16.2.3",
-    "husky": "^7.0.0"
+    "@commitlint/config-conventional": "^16.2.1",
+    "husky": "^7.0.0",
+    "standard-version": "^9.3.2"
   },
   "dependencies": {
-    "@commitlint/config-conventional": "^16.2.1"
+
   }
 }
