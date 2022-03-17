@@ -1,0 +1,10 @@
+#!/bin/sh
+
+# Now we need to tell Husky to run commitlint 
+# during the Git commit hook. 
+# Therefore, we need to add a commit-msg file 
+# to the .husky folder:
+. "$(dirname "$0")/_/husky.sh"
+
+npx --no-install commitlint --edit "$1"
+
